@@ -1,6 +1,6 @@
 {
   "name": "compressor-g4",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "compressor-g4 node.js library",
   "main": "./lib/compressor.js",
   "directories": {
