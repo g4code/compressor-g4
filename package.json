@@ -2,7 +2,7 @@
   "name": "compressor-g4",
   "version": "0.0.1",
   "description": "compressor-g4 node.js library",
-  "main": "./lib/compressor-g4.js",
+  "main": "./lib/compressor.js",
   "directories": {
     "test": "test"
   },
@@ -35,6 +35,6 @@
     "commander"  : "*"
   },
   "bin": {
-    "compressor-g4": "./bin/compressor-g4.js"
+    "compressor-g4": "./bin/compressor.js"
   }
 }
