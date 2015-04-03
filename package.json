@@ -16,7 +16,11 @@
   "keywords": [
     "compressor-g4"
   ],
-  "author": "Drasko Gomboc <drasko.gomboc@gmail.com>",
+  "author": "G4 Code <office@g4code.com>",
+  "maintainers": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>",
+    "Zeljko Simic <zeljkosbgd@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/g4code/compressor-g4/issues"
@@ -26,8 +30,9 @@
     "chai": "*"
   },
   "dependencies": {
-    "evento": "*",
-    "underscore": "*"
+    "underscore" : "*",
+    "node.packer": "*",
+    "commander"  : "*"
   },
   "bin": {
     "compressor-g4": "./bin/compressor-g4.js"
