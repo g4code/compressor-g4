@@ -1,0 +1,35 @@
+{
+  "name": "compressor-g4",
+  "version": "0.0.1",
+  "description": "compressor-g4 node.js library",
+  "main": "./lib/compressor-g4.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/g4code/compressor-g4"
+  },
+  "keywords": [
+    "compressor-g4"
+  ],
+  "author": "Drasko Gomboc <drasko.gomboc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g4code/compressor-g4/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "dependencies": {
+    "evento": "*",
+    "underscore": "*"
+  },
+  "bin": {
+    "compressor-g4": "./bin/compressor-g4.js"
+  }
+}
