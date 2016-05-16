@@ -21,6 +21,11 @@ compressor-g4
 
 ```
 
+e.g.
+```bash
+$ compressor-g4 --config compressor/config.json --env stage
+```
+
 ### Config options
 
 * layouts: array - paths to html/template files where links for css and js files are located
