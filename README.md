@@ -5,9 +5,21 @@ compressor-g4
 
 ## Install
 
-    $ npm install compressor-g4
+    $ npm install -g compressor-g4
 
 ## Usage
+
+```
+  Usage: compressor [options] [dir]
+
+  Options:
+
+    -h, --help        output usage information
+    -V, --version     output the version number
+    -c, --config <n>  path to a configuration file (e.g. compressor/config.json)
+    -e, --env <n>     environment (e.g. production, stage, dev, local ...)
+
+```
 
 ## Development
 
