@@ -26,6 +26,23 @@ e.g.
 $ compressor-g4 --config compressor/config.json --env stage
 ```
 
+Inside of a twig template file
+
+```html
+{# compressor type:css name:inline_filename source:inline #}
+    <link type="text/css" rel="stylesheet" href="/path/to/inline_filename.css" />
+{# compressor end #}
+
+{# compressor type:css name:external_filename #}
+    <link type="text/css" rel="stylesheet" href="/path/to/external_filename.css" />
+{# compressor end #}
+
+{# compressor type:js name:filename source:inline #}
+    <script src="/path/to/filename.js"></script>
+{# compressor end #}
+```
+
+
 ### Config options
 
 * layouts: array - paths to html/template files where links for css and js files are located
