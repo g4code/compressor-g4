@@ -30,15 +30,20 @@ Inside of a twig template file
 
 ```html
 {# compressor type:css name:inline_filename source:inline #}
-    <link type="text/css" rel="stylesheet" href="/path/to/inline_filename.css" />
+    <link type="text/css" rel="stylesheet" href="/path/to/inline_filename1.css" />
+    <link type="text/css" rel="stylesheet" href="/path/to/inline_filename2.css" />
+    <link type="text/css" rel="stylesheet" href="/path/to/inline_filename3.css" />
 {# compressor end #}
 
 {# compressor type:css name:external_filename #}
-    <link type="text/css" rel="stylesheet" href="/path/to/external_filename.css" />
+    <link type="text/css" rel="stylesheet" href="/path/to/external_filename1.css" />
+    <link type="text/css" rel="stylesheet" href="/path/to/external_filename2.css" />
 {# compressor end #}
 
-{# compressor type:js name:filename source:inline #}
-    <script src="/path/to/filename.js"></script>
+{# compressor type:js name:filename #}
+    <script src="/path/to/filename1.js"></script>
+    <script src="/path/to/filename2.js"></script>
+    <script src="/path/to/filename3.js"></script>
 {# compressor end #}
 ```
 
