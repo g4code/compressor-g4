@@ -21,6 +21,32 @@ compressor-g4
 
 ```
 
+### Config options
+
+* layouts: array - paths to html/template files where links for css and js files are located
+* publicPath: string - path to a document root (public folder)
+* tmpPath: string - path to a temp folder
+* compressedFilePrefix: object for environment specific file prefix 
+
+e.g.
+```
+{
+    "layouts":[
+        "application/templates/layout01.twig",
+        "application/templates/layout02.twig"
+    ],
+    "publicPath"    : "../public",
+    "tmpPath"       : "tmp",
+    "compressedFilePrefix" : {
+        "production" : "//cdn.example.com",
+        "stage"      : "//cdn.stage.example.com",
+        "dev"        : "//cdn.dev.int"
+    }
+}
+```
+
+
+
 ## Development
 
 ### Install dependencies
