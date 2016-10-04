@@ -30,9 +30,10 @@
     "chai": "*"
   },
   "dependencies": {
-    "underscore" : "*",
-    "node.packer": "*",
-    "commander"  : "*"
+    "node.packer" : "*",
+    "commander"   : "*",
+    "evento"      : "*",
+    "informer"    : "*"
   },
   "bin": {
     "compressor-g4": "./bin/compressor.js"
